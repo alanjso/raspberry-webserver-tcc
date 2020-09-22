@@ -1,0 +1,23 @@
+{
+    "port": 4001,
+    "mongo_db": {
+        "habilitado": false,
+        "host": "localhost",
+        "database": "genericapi"
+    },
+    "postgres": {
+        "habilitado": false,
+        "host": "172.17.0.2",
+        "database": "generic-api",
+        "username": "postgres",
+        "password": "123456"
+    },
+    "email": {
+        "habilitado": false,
+        "hostSMTP": "mail.g4flex.com.br",
+        "name": "G4 Flex",
+        "address": "noreply@g4flex.com.br",
+        "password": "1q2w3e4r5t!Q@W#E$R%T"
+    },
+    "telegramToken": "1386980092:AAFaa3Mu6KPzq5WSgsxv4XBb5w7bB77pcQo"
+}
